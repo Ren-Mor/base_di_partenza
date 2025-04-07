@@ -37,7 +37,7 @@ header div img {
   float: left;
 }
 
-header p {
+#first-par {
   display: inline-block;
 }
 header nav ul {
@@ -85,7 +85,15 @@ h1 {
   font-weight: bold;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
+  line-height: 1.2;
 }
+
+main article img {
+  border: 3px solid #03a9f4;
+  outline: 3px solid purple;
+  padding: 0.25em;
+}
+
 p,
 address,
 ul,
@@ -218,9 +226,8 @@ footer a {
     margin-right: 5%;
   }
   main aside div {
-    display: block;
-    width: 100%;
-    margin: 0 0 1em 0;
+    display: inline-block;
+    width: 30%;
   }
   main aside {
     width: 30%;
@@ -229,11 +236,10 @@ footer a {
     box-sizing: border-box;
   }
   iframe {
-    width: 60%; /* Imposta una larghezza specifica per il video */
-    float: left;
-    margin-right: 5%; /* Distanza tra il video e la sezione */
-    height: 300px;
-    object-fit: cover;
+    max-width: 60%;
+    text-align: left;
+    margin-right: 5%;
+    height: 200px;
   }
 }
 
