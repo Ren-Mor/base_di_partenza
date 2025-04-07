@@ -15,7 +15,7 @@ body {
 }
 hr {
   display: none;
-} /* rimuove l'elemento */
+}
 
 /* HEADER */
 header {
@@ -30,17 +30,18 @@ header {
   font-weight: bold;
   color: white;
   box-shadow: 0 3px 3px #444;
-  margin-bottom: 1.5em;
   padding: 2em 1.5em;
 }
 header div img {
   margin-bottom: 20px;
+  float: left;
 }
 header nav ul {
   margin: 0;
 }
 header nav li {
   list-style: none;
+  display: inline-block;
 }
 header nav li a {
   color: white;
